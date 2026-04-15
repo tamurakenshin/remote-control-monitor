@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": ["node_modules"],
+}
